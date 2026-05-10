@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Tape decorations -->
+      <div class="tape tape-top-right"></div>
+      <div class="tape tape-bottom-left"></div>
+
+      <div class="brand">
+        <div class="brand-icon">&#x270F;&#xFE0F;</div>
+        <h1>Welcome Back!</h1>
+        <p class="subtitle">Sign in to continue to your notes</p>
+      </div>
+
+      <form id="sign-in">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Enter your username" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter your password" required />
+        </div>
+        <button type="submit">Sign In &#x270F;&#xFE0F;</button>
+      </form>
+
+      <p id="status"></p>
+
+      <div class="link-row">
+        <a href="/registration.html">Register</a>
+        <a href="/index.html">Home</a>
+      </div>
+    </div>
+
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
